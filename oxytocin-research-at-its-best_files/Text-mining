@@ -1,0 +1,624 @@
+document.write('<div id="survey-wrapper-5114489" class="sg-survey"></div>');if (!window.SGAPI) {SGAPI = {};}if (!SGAPI.pendingContent) {SGAPI.pendingContent = [];}SGAPI.pendingContent.push({id:"#survey-wrapper-5114489",content:"<style type=\"text\/css\" media=\"all\">\n.sg-hide { display: none; }\n\n.sg-error-message {display: none;} \n\n.sg-access-helper {display: block; position: absolute !important; margin-left: -999em; width: 100em;}\n\n.sg-screenreader-only {position: absolute;border: 0;height: 0;margin: 0;overflow: hidden;padding: 0;}\n<\/style>\n<link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"\/\/www.surveygizmo.com\/2019.07.18.00\/runtimejs\/dist\/survey\/css\/jscal.css\" \/><link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"\/\/www.surveygizmo.com\/2019.07.18.00\/runtimejs\/dist\/survey\/css\/survey2.css\" \/><link type=\"text\/css\" rel=\"stylesheet\" media=\"all\" href=\"\/\/www.surveygizmo.com\/2019.07.18.00\/runtimethemes\/default\/runtime\/css\/sg-icon-font.css\" \/><style type=\"text\/css\" media=\"all\">html{font-size:16px;}.sg-body{font-family:Open Sans;font-size:16px;font-weight:400;color:#222222;background-color:rgba(255,255,255,1.00);}.sg-header{color:#ffffff;background-color:rgba(255,255,255,1.00);}.sg-wrapper{background-color:rgba(255,255,255,1.00);}.sg-survey-form{width:80%;}.sg-content{width:100%;}.sg-gdpr-modal-close, .sg-page-title{color:#222222;}.sg-question{border-bottom:1px solid #e8e8e8;border-top-color:rgba(255,255,255,1.00);border-right-color:#222222;}.sg-question-title{font-weight:bold;}.sg-input-text, .sg-input-menu, .sg-input-essay, .sg-question input[type=\"text\"], .sg-question input[type=\"number\"], .sg-question input[type=\"password\"], .sg-question textarea{background-color:transparent;border:2px solid #a6a6a6;}.sg-question input[type=\"text\"]:focus, .sg-question input[type=\"number\"]:focus, .sg-question input[type=\"password\"]:focus, .sg-question textarea:focus{border-color:#920b24;border-width:4px;outline:0;}.sg-replace-icons input[type=radio]:focus-within + label , .sg-replace-icons input[type=checkbox].sg-input-checkbox:focus-within + label , .sg-image-box:focus-within , .rangeslider__handle:focus , .sg-star-box .sg-star-sr-target:focus , .sg-input-menu:focus , span.ui-slider-handle:focus , .sg-cs-cards:focus , .cs-card:focus , .sg-texthighlighter-text span:focus , .DynarchCalendar-bottomBar-today:focus{outline:#920b24 auto 5px;}.DynarchCalendar-day.sgcal-selected{background-color:#920b24;}ul.ui-autocomplete{font-family:Open Sans;font-size:16px;font-weight:400;color:#222222;background-color:rgba(255,255,255,1.00) !important;}::-webkit-input-placeholder{color:#a6a6a6;}:-moz-placeholder{color:#a6a6a6;}::-moz-placeholder{color:#a6a6a6;}:-ms-input-placeholder{color:#a6a6a6;}.sg-button, .sg-file-field input[type=\"button\"], .sg-next-button, .sg-back-button, .sg-submit-button, .sg-browse-btn, .sg-configurator-btn, .sg-add-another-button{color:#ffffff;background-color:#920b24;}.sg-button:hover, .sg-button:focus, .sg-button:active, .sg-file-field input[type=\"button\"]:hover, .sg-file-field input[type=\"button\"]:focus, .sg-file-field input[type=\"button\"]:active, .sg-next-button:hover, .sg-next-button:focus, .sg-next-button:active, .sg-back-button:hover, .sg-back-button:focus, .sg-back-button:active, .sg-submit-button:hover, .sg-submit-button:focus, .sg-submit-button:active, .sg-configurator-btn:hover, .sg-configurator-btn:focus, .sg-configurator-btn:active, .sg-browse-btn:hover, .sg-browse-btn:focus, .sg-browse-btn:active, .sg-add-another-button:hover, .sg-add-another-button:focus, .sg-add-another-button:active{color:#ffffff;background-color:#bd6c7b;}.sg-button:focus, .sg-file-field input[type=\"button\"]:focus, .sg-next-button:focus, .sg-submit-button:focus, .sg-back-button:focus, .sg-configurator-btn:focus, .sg-browse-btn:focus, .sg-input-file:focus + .sg-browse-btn, .sg-add-another-button:focus{border:4px solid #4e1822;}.sg-type-table .sg-table{border-color:#b1b1b1;}.sg-type-table .sg-table thead th, .sg-type-table .sg-table thead td.sg-mock-th, .sg-type-table .sg-table tbody th, .sg-type-table thead th.sg-column-header, .sg-type-table .sg-table tbody td, .sg-type-table thead th.sg-column-header, .sg-type-table .sg-table thead th.sg-column-subheader, .sg-type-table tbody td.sg-group-first-cell, .sg-rtl .sg-type-table td, .sg-type-table thead th.sg-column-subheader-1, .sg-rtl .sg-type-table thead th, .sg-rtl .sg-type-table thead th.sg-column-header, .sg-rtl .sg-type-table thead th.sg-column-subheader-1, .sg-rtl .sg-type-table tbody td.sg-group-first-cell{border-color:#e8e8e8;}.sg-type-portal .sg-table{border-color:#b1b1b1;}.sg-type-portal .sg-table thead th{border-color:#ffffff;background-color:#ffffff;color:#ffffff;}.sg-type-portal .sg-table tbody th{border-color:#e8e8e8;}.sg-type-portal .sg-table tbody td{border-color:#e8e8e8;}.sg-type-portal .sg-table .sg-odd-row th{background-color:#ffffff;}.sg-type-portal .sg-table .sg-odd-row td{background-color:#fafafa;}.sg-type-portal .sg-table .sg-even-row th{background-color:#f8f8f8;}.sg-type-portal .sg-table .sg-even-row td{background-color:#ededed;}.sg-rank-dragdrop .sg-rank-origin{background-color:#f3f3f3;}.sg-rank-dragdrop .sg-rank-target{background-color:#e8e8e8;}.sg-rank-dragdrop .sg-rank-target, .sg-rank-dragdrop .sg-rank-origin{border-color:#e8e8e8;}.sg-rank-dragdrop .sg-rank-instructions{color:#b1b1b1;}.sg-rank-dragdrop ul.ui-sortable li div{color:#595959;}.sg-rank-dragdrop ul.ui-sortable li{background-color:#ffffff;border-color:#ffffff;}.sg-type-cardsort .sg-cs-left, .sg-type-cardsort .sg-cs-top{background-color:#f3f3f3;}.sg-type-cardsort .sg-cs-bucket{background-color:#e8e8e8;}.sg-type-cardsort ul.sg-cs-cards, .sg-type-cardsort .sg-target-cs .sg-cs-bucket-lbl{border-color:#e8e8e8;}.sg-type-cardsort .sg-cs-bucket, .sg-type-cardsort .sg-cs-bucket-lbl{border-color:#d2d2d2;}.sg-type-cardsort ul.sg-cs-buckets .cs-card, .sg-type-cardsort ul.sg-cs-cards .cs-card{border-color:#e8e8e8;background-color:#ffffff;}.sg-type-cardsort .cs-empty::after{color:#a6a6a6;}.sg-type-cardsort .sg-cs-target-one .sg-cs-bucket::after, .sg-type-cardsort .sg-cs-buckets-open:empty::after{color:#909090;}.sg-type-cardsort .sg-add-bucket{background-color:#f3f3f3;border-color:#e8e8e8;}.sg-type-cardsort .sg-add-bucket.ui-state-hover, .sg-type-cardsort ul.sg-cs-buckets.ui-state-hover{background-color:#deb5bd;}.sg-type-file .sg-file-desc{border-color:#a6a6a6;background-color:#e8e8e8;}.sg-type-file .sg-file-prefix, .sg-type-file .sg-file-size{color:#909090;}.sg-progress-bar-inner{background-color:#920b24;}.sg-progress-bar-text{color:#ffffff;background-color:#920b24;}.sg-progress-bar-background{background-color:#bcbcbc;border-left:1px solid #ffffff;}.sg-body .sg-powered-by div, .sg-body .sg-powered-by a{color:#111111;}.sg-result-bar{background-color:#bfc5ca;}.DynarchCalendar{background-color:#ffffff;color:#222222;border:1px solid #909090;}.DynarchCalendar-body, .DynarchCalendar-menu{background-color:#f3f3f3;color:#222222;}.DynarchCalendar{border-color:#920b24;background:#FFF;}.DynarchCalendar, .DynarchCalendar table{color:#2C3E50;}.DynarchCalendar-body, .DynarchCalendar-menu{background:#fff;}.DynarchCalendar-menu{background:#FFF;}.DynarchCalendar-dayNames .DynarchCalendar-weekend{color:#95A5A6;}.DynarchCalendar-weekend{color:#34495E;}.DynarchCalendar-day-othermonth, .DynarchCalendar-day-othermonth.DynarchCalendar-weekend{color:#BDC3C7;}.DynarchCalendar-focused .DynarchCalendar-hover-week .DynarchCalendar-day{color:inherit;}.DynarchCalendar-day-today{color:#920b24;}.DynarchCalendar-day-selected{background-color:#ECF0F1;color:#2C3E50 !important;border-color:#920b24;}.sg-snc-bar, body:not(.sg-mobile) .sg-snc-lang-list{font-family:Open Sans;border-bottom:1px solid #cccccc;background:#4c4c4c;}body:not(.sg-mobile) .sg-snc-lang-list{border-left:1px solid #cccccc;border-right:1px solid #cccccc;}body:not(.sg-mobile) .sg-lang-fixed-at-bottom .sg-snc-lang-list, body:not(.sg-mobile) .sg-snc-at-bottom .sg-snc-lang-list{border-bottom:none;border-top:1px solid #cccccc;}.sg-snc-trigger, .sg-snc-bar a{color:#ffffff;}body:not(.sg-high-contrast-mode) .sg-snc-trigger .sg-toolbar-icon{fill:#ffffff;}#sg-snc-box{color:#ffffff;}.sg-snc-buttons input, .sg-snc-buttons button{font-family:Open Sans;}.sg-language-list ul{background-color:#ffff3f;}.sg-language-list li{border-color:#ffff7f;}.sg-language-list a{color:#222222;}.sg-snc-lang-list li:hover{background-color:#ffffff;}.sg-snc-lang-list li:hover a{color:#191919;}.sg-table thead .sg-required-icon{color:#ffffff;}.sg-table tbody .sg-required-icon{color:#b01e31;}.sg-slider-rows, .sg-slider-row, .sg-slider-gridline{border-color:#b1b1b1;}.sg-slider-container .ui-slider-horizontal, .sg-slider .sg-single-slider, .sg-slider-mobile .sg-mobile-slider-bar{background:#434343;}.sg-slider-container .ui-slider-horizontal-blank, .sg-slider .ui-slider-horizontal-blank, .sg-slider .ui-slider-vertical-blank, .sg-slider-mobile .ui-slider-horizontal-blank, .sg-slider-mobile .ui-slider-vertical-blank{background:#c7c7c7;}.sg-slider .sg-slider-bubble-horizontal, .sg-slider .sg-slider-bubble-vertical{background:#920b24;color:#ffffff;}.sg-slider .sg-slider-bubble-horizontal .sg-dink div{border-top-color:#920b24;}.sg-slider .sg-slider-bubble-vertical .sg-dink div{border-right-color:#920b24;}.sg-body .ui-slider .ui-slider-handle, .sg-body .ui-slider .ui-slider-handle:hover{background:#920b24;}.sg-conjoint-table > tbody > tr > td, .sg-conjoint-table > tfoot > tr > td, .sg-conjoint-table > tfoot td, .sg-conjoint-table > tfoot th{border-color:#e8e8e8}.sg-survey .sg-mobile-optimized .sg-question.sg-type-conjoint_new .sg-question-options .sg-conjoint-table > tbody > tr, .sg-survey .sg-mobile-optimized .sg-question.sg-type-conjoint_new .sg-question-options .sg-conjoint-table > tbody > tr > td:first-child{border-color:#222222;}.sg-conjoint-table.mobile table th, .conjoint-attribute-title{color:#a6a6a6;}.sg-conjoint-text-remaining{color:#a6a6a6;}.sg-survey body.sg-mobile-optimized .sg-type-table-radio .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-type-table-card-sort-closed .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-type-table-card-sort .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-type-table-matrix .sg-question-options .sg-mobilize-label label, .sg-survey body.sg-mobile-optimized .sg-type-table-checkbox .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-radio .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-checkbox .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-rank-table .sg-question-options th label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-rank-table .sg-question-options td label{color:#222222;background-color:rgba(255,255,255,1.00);border-color:#222222;}.sg-survey body.sg-mobile-optimized .sg-question.sg-type-conjoint_new .sg-question-options .sg-conjoint-table > tbody > tr{border-color:#222222;}.sg-survey body.sg-mobile-optimized .sg-question.sg-type-conjoint_new .sg-question-options .sg-conjoint-table > tbody > tr.selected, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-conjoint_new .sg-question-options .sg-conjoint-table > tbody > tr > td.selected{color:#ffffff;background-color:#222222;}.sg-survey body.sg-mobile-optimized .sg-question.sg-type-slider .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-slider .sg-question-options input[type=checkbox]:checked+label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-multi-slider .sg-question-options label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-multi-slider .sg-question-options input[type=checkbox]:checked+label{color:#222222;background:none;}.sg-survey body.sg-mobile-optimized .sg-question .sg-question-options input[type=radio]:checked + label, .sg-survey body.sg-mobile-optimized .sg-question .sg-question-options input[type=radio]:checked + .sg-mobilize-label label, .sg-survey body.sg-mobile-optimized .sg-question .sg-question-options input[type=checkbox]:checked + .sg-mobilize-label label, .sg-survey body.sg-mobile-optimized .sg-question .sg-question-options input[type=checkbox]:checked+label{color:#ffffff;background-color:#222222;}.sg-survey body.sg-mobile-optimized .sg-question.sg-type-rank-table input[type=radio]:checked + label, .sg-survey body.sg-mobile-optimized .sg-question.sg-type-rank-table input[type=checkbox]:checked + label{background-color:#222222;color:rgba(255,255,255,1.00);}.table360 tr th{background-color:#ffffff;}<\/style>\n<style type=\"text\/css\" media=\"all\">body{margin:0;}body .sg-content{padding:0;}body .sg-question-title p, body .sg-question-title label, body .sg-question-title span, body label, body .sg-instructions, body p, body .highcharts-title, body .sg-question-title, body .sg-question-title label{font-size:17px;line-height:1.76;font-family:Lora,Palatino,Times,Times New Roman,serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;-webkit-overflow-scrolling:touch;-webkit-tap-highlight-color:#f4f4f4;-webkit-text-size-adjust:100%;font-stretch:normal;}.sg-survey{border-top:1px solid #000;border-bottom:1px solid #000;padding:25px 0;}@media (max-width:768px){.sg-body:not(.sg-mobile) .sg-page-title, .sg-page-title{margin-left:0;}}.sg-question-title p{font-family:Lora, sans-serif;font-size:22px;line-height:32px;}.sg-next-button, .sg-submit-button{margin-left:0;}.sg-add-another-button, .sg-browse-btn, .sg-button, .sg-configurator-btn, .sg-file-field input[type=button]{border-radius:30px;text-transform:uppercase;letter-spacing:0.2em;}.sg-question-options{padding:0.5em 1em 1em 0;}@media (max-width:768px){.sg-body:not(.sg-mobile) .sg-page-title, .sg-page-title{margin-left:0;}}.sg-question-title p{font-family:Lora, sans-serif;font-size:22px;line-height:32px;}.sg-next-button, .sg-submit-button{margin-left:0;}.sg-add-another-button, .sg-browse-btn, .sg-button, .sg-configurator-btn, .sg-file-field input[type=button]{border-radius:30px;text-transform:uppercase;letter-spacing:0.2em;}.sg-title{display:none;}.sg-body h1.sg-title{font-family:Open Sans, sans-serif;font-weight:400;font-size:20px;}.sg-body .sg-page-title{font-family:Open Sans, sans-serif;font-weight:400;font-size:18px;}.sg-wrapper, .sg-question-title, .sg-question-title label{font-family:Open Sans;font-weight:400;font-size:16px;}.sg-question-number{display:none;}.sg-back-button{display:none !important;}.sg-progress-bar{display:none;}.sg-powered-by{display:none;}h1.sg-title{text-align:left;}.sg-page-title{text-align:left;}.sg-header-image{margin:0 auto 0 0}img.sg-header-image{max-width:100%;display:block;}<\/style>\n<link rel=\"apple-touch-icon\" href=\"\/\/www.surveygizmo.com\/2019.07.18.00\/runtimejs\/dist\/survey\/css\/default\/runtime\/qui\/retina_icon.png\" \/><div class=\"sg-body sg-page-1 sg-pageid-1 sg-webkit sg-ltr  sg-replace-icons  sg-js-embed\" id=\"sgbody-5114489\" ><link href='\/\/fonts.googleapis.com\/css?family=Open Sans|Open Sans' rel='stylesheet' type='text\/css'><div class=\"sg-skipnav-container\">\n\t\t\t\t\t\t<a id=\"sg-skipnav\" class=\"sg-screenreader-only\" href=\"#sg-skipnav-target\" >Skip survey header<\/a>\n\t\t\t\t\t<\/div><form action=\"https:\/\/www.surveygizmo.com\/s3\/5114489\/Text-mining?__passthrough=true&__output=embedjs\" method=\"post\" enctype=\"multipart\/form-data\" class=\"sg-survey-form\" id=\"sg_FormFor5114489\" ><div class=\"sg-hidden-inputs\"><input type=\"hidden\" name=\"sg_referer\" value=\"https:\/\/s3-service-broker-live-e0de1db2-92c6-4eaa-bea1-b061bb5127bf.s3.eu-central-1.amazonaws.com\/interactive\/2019\/text-mining\/index.html\" \/><input type=\"hidden\" name=\"sg_navchoice\" id=\"sg_navchoice\" value=\"\" \/><input type=\"hidden\" name=\"sg_currentpageid\" id=\"sg_currentpageid\" value=\"1\" \/><input type=\"hidden\" name=\"sg_surveyident\" id=\"sg_surveyident\" value=\"5114489\" \/><input type=\"hidden\" name=\"__ref\" id=\"__ref\" value=\"https:\/\/s3-service-broker-live-e0de1db2-92c6-4eaa-bea1-b061bb5127bf.s3.eu-central-1.amazonaws.com\/interactive\/2019\/text-mining\/index.html\" \/><input type=\"hidden\" name=\"sg_interactionlevel\" id=\"sg_interactionlevel\" value=\"0\" \/><input type=\"hidden\" name=\"sg_sessionid\" id=\"sg_sessionid\" value=\"1563559732_5d3207342fcb95.52593532\" \/><input type=\"hidden\" name=\"sg_high_contrast\" id=\"sg_high_contrast\" value=\"\" \/><\/div>  <div class=\"sg-wrapper\">\n\t<div class=\"sg-header\">\n\t\t<div class=\"sg-header-hook-1\"><\/div>\n\t\t<img class=\"sg-header-image\" src=\"data:image\/gif;base64,R0lGODlhAQABAIAAAAAAAP\/\/\/yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" alt=\"\"\/>\n\n\t\t<h1 class=\"sg-title\"><span>LIVE: Text-mining<\/span><\/h1>\n\t\t\n\n\t\t<div class=\"sg-header-hook-2\"><\/div>\n\t<\/div>\n\t<div class=\"sg-content\">\n\t\t<div class=\"sg-content-hook-1\"><\/div>\n\n\t\t\n     \t\n\t\t\n\t\t<div class=\"sg-question-set\" >\t\t<fieldset id=\"sgE-5114489-1-2-box\"\n\t\t\t\t\t\t\t\tclass=\"sg-question sg-type-radio  sg-fieldset\">\n\t\t\t<legend class=\"sg-question-title sg-question-legend\"  >\n\t\t\t\t<span class=\"sg-question-number\">1.<\/span> Does your team use text-mining in its research?\t\t\t<\/legend>\n\t\t\t<input type=\"hidden\" id=\"sgE-5114489-1-2-meta\"\n\t\t\t\tname=\"sgE-5114489-1-2-meta\"\n\t\t\t\tvalue=\"hidden=false&amp;required=false\"\n\t\t\t\t\/>\n\t\t<input type=\"hidden\" id=\"sgE-5114489-1-2-time\"\n\t\t\t\tname=\"sgE-5114489-1-2-time\"\n\t\t\t\tvalue=\"\"\n\t\t\t\t\/>\n\t\t\t\t\t<div class=\"sg-question-options \">\n\t\t\t<ul class=\"sg-list sg-list-vertical sg-list-vertical-flipped sg-labels-right\" role=\"radiogroup\">\n\t<li class=\"sg-first-li\">\n\t<input type=\"radio\"\n\t\t\t\t\t\t\t\t\tid=\"sgE-5114489-1-2-10005\"\n\t\t\t\t\t\t\t\t\tclass=\"sg-input sg-input-radio\"\n\t\t\t\t\t\t\t\t\tname=\"sgE-5114489-1-2\"\n\t\t\t\t\t\t\t\t\taria-label=\"Never heard of it\"\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tvalue=\"10005\"\/>\n<label for=\"sgE-5114489-1-2-10005\" aria-hidden=\"true\" aria-label=\"Never heard of it\">Never heard of it<\/label>\t<\/li>\n\t\t<li>\n\t<input type=\"radio\"\n\t\t\t\t\t\t\t\t\tid=\"sgE-5114489-1-2-10006\"\n\t\t\t\t\t\t\t\t\tclass=\"sg-input sg-input-radio\"\n\t\t\t\t\t\t\t\t\tname=\"sgE-5114489-1-2\"\n\t\t\t\t\t\t\t\t\taria-label=\"No\"\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tvalue=\"10006\"\/>\n<label for=\"sgE-5114489-1-2-10006\" aria-hidden=\"true\" aria-label=\"No\">No<\/label>\t<\/li>\n\t\t<li>\n\t<input type=\"radio\"\n\t\t\t\t\t\t\t\t\tid=\"sgE-5114489-1-2-10007\"\n\t\t\t\t\t\t\t\t\tclass=\"sg-input sg-input-radio\"\n\t\t\t\t\t\t\t\t\tname=\"sgE-5114489-1-2\"\n\t\t\t\t\t\t\t\t\taria-label=\"No &ndash; but would if a data depot was available\"\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tvalue=\"10007\"\/>\n<label for=\"sgE-5114489-1-2-10007\" aria-hidden=\"true\" aria-label=\"No &ndash; but would if a data depot was available\">No \u2013 but would if a data depot was available<\/label>\t<\/li>\n\t\t<li class=\"sg-last-li\">\n\t<input type=\"radio\"\n\t\t\t\t\t\t\t\t\tid=\"sgE-5114489-1-2-10015\"\n\t\t\t\t\t\t\t\t\tclass=\"sg-input sg-input-radio\"\n\t\t\t\t\t\t\t\t\tname=\"sgE-5114489-1-2\"\n\t\t\t\t\t\t\t\t\taria-label=\"Yes\"\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tvalue=\"10015\"\/>\n<label for=\"sgE-5114489-1-2-10015\" aria-hidden=\"true\" aria-label=\"Yes\">Yes<\/label>\t<\/li>\n\t<\/ul>\n\t\t\t\t<\/div>\n\n\t\t\t\t<\/fieldset>\n\t\n\t\t<div id=\"sgE-5114489-1-13-box\"\n\t\t\t\t\t\t\t\tclass=\"sg-question sg-type-textbox sg-hide\">\n\t\t\t<input type=\"hidden\" id=\"sgE-5114489-1-13-meta\"\n\t\t\t\tname=\"sgE-5114489-1-13-meta\"\n\t\t\t\tvalue=\"hidden=false&amp;required=false\"\n\t\t\t\t\/>\n\t\t<input type=\"hidden\" id=\"sgE-5114489-1-13-time\"\n\t\t\t\tname=\"sgE-5114489-1-13-time\"\n\t\t\t\tvalue=\"\"\n\t\t\t\t\/>\n\t\t\t\t\t\t<div class=\"sg-question-title\" >\n\t\t\t\t\t\t<label for=\"sgE-5114489-1-13-element\">\n\t\t<span class=\"sg-question-number\"><\/span> We\u2019d love to hear more! Could you briefly tell us how you use text-mining for your research? <span style=\"color:#444444;\"><em>[Optional]<\/em><\/span>\t<\/label>\n\t\t\t\t<\/div>\n\t\t\t\t\t\t\t<div class=\"sg-question-options \">\n\t\t\t\t<div class=\"sg-control-text sg-control-text\">\n\t\t<input type=\"text\"\n\t\t\t\t\t\t\t\tclass=\"sg-input sg-input-text \"\n\t\t\t\t\t\t\t\tid=\"sgE-5114489-1-13-element\"\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tname=\"sgE-5114489-1-13\"\n\t\t\t\t\t\t\t\ttitle=\"We\u2019d love to hear more! Could you briefly tell us how you use text-mining for your research? [Optional]\"\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tvalue=\"\"\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\/>\t<\/div>\n\n\t\t\t\t<\/div>\n\n\t\t\t\t<\/div>\n\t\n\t\t<div id=\"sgE-5114489-1-14-box\"\n\t\t\t\t\t\t\t\tclass=\"sg-question sg-type-textbox sg-hide\">\n\t\t\t<input type=\"hidden\" id=\"sgE-5114489-1-14-meta\"\n\t\t\t\tname=\"sgE-5114489-1-14-meta\"\n\t\t\t\tvalue=\"hidden=false&amp;required=false\"\n\t\t\t\t\/>\n\t\t<input type=\"hidden\" id=\"sgE-5114489-1-14-time\"\n\t\t\t\tname=\"sgE-5114489-1-14-time\"\n\t\t\t\tvalue=\"\"\n\t\t\t\t\/>\n\t\t\t\t\t\t<div class=\"sg-question-title\" >\n\t\t\t\t\t\t<label for=\"sgE-5114489-1-14-element\">\n\t\t<span class=\"sg-question-number\"><\/span> If you'd be happy with a <em>Nature<\/em> reporter getting in touch to talk about your work, please share your email address:\t<\/label>\n\t<span class=\"sg-screenreader-only\">This question requires a valid email address.<\/span>\n\t\t\t\t<\/div>\n\t\t\t\t\t\t\t<div class=\"sg-question-options \">\n\t\t\t\t<div class=\"sg-control-text sg-control-email\">\n\t\t<input type=\"text\"\n\t\t\t\t\t\t\t\tclass=\"sg-input sg-input-text sg-validation-email\"\n\t\t\t\t\t\t\t\tid=\"sgE-5114489-1-14-element\"\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tname=\"sgE-5114489-1-14\"\n\t\t\t\t\t\t\t\ttitle=\"If you'd be happy with a Nature reporter getting in touch to talk about your work, please share your email address:\"\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tvalue=\"\"\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\/>\t<\/div>\n\n\t\t\t\t<\/div>\n\n\t\t\t\t<\/div>\n\t\n<\/div>\n\n\t\t<div class=\"sg-content-hook-2\"><\/div>\n\t\t\n\t\t<div class=\"sg-footer\">        \n\t\t\t<div class=\"sg-footer-hook-1\"><\/div>\n\t\t\t\n\t\t\t<div class=\"sg-button-bar\"><input type=\"submit\"\n\t\t\t\t\t\t\t\t\t\t\tclass=\"sg-button sg-next-button\"\n\t\t\t\t\t\t\t\t\t\t\tid=\"sg_NextButton\"\n\t\t\t\t\t\t\t\t\t\t\tname=\"sGizmoNextButton\"\n\t\t\t\t\t\t\t\t\t\t\tonclick=\"('sg_navchoice').value='sGizmoNextButton';return(true);\"\n\t\t\t\t\t\t\t\t\t\t\taria-label=\"Submit\"\n\t\t\t\t\t\t\t\t\t\t\tvalue=\"Submit\" \/><\/div>\n\t\t\t<div class=\"sg-progress-bar\" role=\"progressbar\" aria-valuemin=\"0\" aria-valuemax=\"100\" aria-valuenow=\"0\"  ><div class=\"sg-progress-bar-text\" >0%<\/div><div class=\"sg-progress-bar-background\"><div class=\"sg-progress-bar-inner\" style=\"width:0%;\"><\/div><\/div><\/div>\n\t\t\t\n\t\n\t\t\t<div class=\"sg-footer-hook-2\"><\/div>\n\t\t<\/div>\n\t\n\t<\/div>\n\t\n<\/div><\/form><\/div>",callback: function(el, $) {SGAPI.surveyData['5114489'] = {
+    "id": 5114489,
+    "current_domain": "www.surveygizmo.com",
+    "customer_id": 643292,
+    "key": "9FEP95W57O632WK0RJBQYCKFBXPF54",
+    "rtl": false,
+    "session": "1563559732_5d3207342fcb95.52593532",
+    "progess": "0",
+    "progress": 0,
+    "minstep": "50",
+    "ispreview": "false",
+    "ismobile": "false",
+    "language": "English",
+    "page_direction": -3,
+    "currency_glyph": "\u00a3",
+    "title": "LIVE: Text-mining",
+    "options": {
+        "forward_only": false,
+        "file_session_download": false,
+        "is_kiosk": false,
+        "dynamic_number": false
+    },
+    "currentpage": 1,
+    "pages": {
+        "p1": {
+            "id": 1,
+            "title": "(untitled)",
+            "hidden": false,
+            "haserrors": false,
+            "shuffled": false,
+            "xnumberselected": false,
+            "piped": false,
+            "pipevalue": "",
+            "number": 1,
+            "options": {}
+        }
+    },
+    "messages": {
+        "min_number": ":value is less than :min",
+        "max_number": ":value is more than :max",
+        "minimum_response": "You must select at least :min checkbox(es). You have only selected :value checkbox(es).",
+        "required": "This question is required",
+        "save_n_continue_match": "Email address fields must match.",
+        "save_n_continue_invalid": "Invalid Email address.",
+        "uploading_file": "Uploading...",
+        "file_prefix": "File:",
+        "no_file_specified": "No file specified",
+        "upload_error": "Error: Please try again",
+        "invalid_file_type": "Error: File type not allowed",
+        "invalid_file_size": "Error: File size is too large",
+        "max_words": "Words used: :value out of :max.",
+        "max_characters": "Characters used: :value out of :max.",
+        "too_many_words": "You have typed more words than allowed (:wordcount of :limit words)",
+        "too_many_characters": "You have typed more characters than allowed (:charactercount of :limit characters)",
+        "min_words": "Words used: :value (minimum :min).",
+        "min_characters": "Characters used: :value (minimum :min).",
+        "not_enough_words": "You have typed fewer words than required (:minwordcount of :minimum words)",
+        "back_button": "Back",
+        "next_button": "Submit",
+        "not_enough_characters": "You have typed fewer characters than required (:mincharactercount of :minimum characters)",
+        "invalid_email": "\":value\" is not a valid email address",
+        "invalid_percent": ":value must be a percent",
+        "invalid_min_date": "Date must be after or equal to :min",
+        "invalid_max_date": "Date must be before or equal to :max",
+        "must_be_positive_whole_number": "Please supply a positive whole number (no decimals)",
+        "must_be_whole_number": "Please supply a whole number (no decimals)",
+        "selectone": "-- Please Select --",
+        "invalid_number": ":value must be a number",
+        "page_timer_warning": "This page has an initial time limit of",
+        "page_timer_prompt": "Would you like to disable all future page timer notifications?",
+        "page_timer_expired": "Time limit expired. Submitting page."
+    },
+    "questions": {
+        "2": {
+            "id": 2,
+            "title": "Does your team use text-mining in its research?",
+            "type": "RADIO",
+            "Runtime": {
+                "Hidden": false,
+                "Required": false,
+                "Rendered": true,
+                "HasErrors": false,
+                "Errors": [],
+                "Answered": false,
+                "Number": "1.",
+                "PipePrototype": false,
+                "Piped": false,
+                "PipedValue": null,
+                "Data": {
+                    "atoms": []
+                }
+            },
+            "properties": {
+                "option_sort": "NONE",
+                "required": false,
+                "hidden": false,
+                "orientation": "VERT",
+                "validation_control": "",
+                "cssclass": "sg-radio",
+                "labels_right": true,
+                "inline-edit": true,
+                "map_key": "radio",
+                "alldepends": [],
+                "element_style": "OS",
+                "newpipeorder": true,
+                "show_title": false,
+                "question_description": {
+                    "English": ""
+                },
+                "question_description_above": false,
+                "required-when": false,
+                "soft-required": false,
+                "disabled": false,
+                "pro-services-lock": false,
+                "include_page_titles": "false",
+                "include_page_numbers": "false",
+                "include_question_numbers": "false",
+                "save_logic_data": "false",
+                "messages": {
+                    "inputmask": [],
+                    "r_extreme_label": [],
+                    "l_extreme_label": [],
+                    "center_label": [],
+                    "right_label": [],
+                    "left_label": [],
+                    "na_text": [],
+                    "th_content": [],
+                    "conjoint_best_label": [],
+                    "conjoint_worst_label": [],
+                    "conjoint_none_label": [],
+                    "conjoint_card_label": [],
+                    "conjoint_error_label": [],
+                    "maxdiff_best_label": [],
+                    "maxdiff_worst_label": [],
+                    "maxdiff_attribute_label": [],
+                    "maxdiff_of": [],
+                    "maxdiff_sets_message": []
+                },
+                "date_format": "us",
+                "min_date": "",
+                "max_date": "",
+                "col_sort": "NONE",
+                "dhtml_hidden": false,
+                "hide_all_after_until_value": false,
+                "hide_after_response": false,
+                "comments": false,
+                "require_comments": false,
+                "admin_question": false,
+                "require_admin_question": false,
+                "custom_css": "",
+                "size": "",
+                "break_after": false,
+                "has_showhide_deps": true,
+                "url": "http:\/\/",
+                "lastmodified": 1563267597,
+                "amounts": {
+                    "2-10010": null,
+                    "2-10009": null,
+                    "2-10003": null,
+                    "2-10004": null,
+                    "2-10008": null
+                },
+                "alert_emails": []
+            },
+            "options": {
+                "10003": {
+                    "id": 10003,
+                    "previous_version_id": null,
+                    "value": "Asian",
+                    "title": {
+                        "English": "Asian"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": true
+                    },
+                    "properties": {
+                        "disabled": true,
+                        "piping_exclude": "false",
+                        "show_rules": null,
+                        "show_rules_logic_map": null
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10004": {
+                    "id": 10004,
+                    "previous_version_id": null,
+                    "value": "Native Hawaiian or Other Pacific Islander",
+                    "title": {
+                        "English": "Native Hawaiian or Other Pacific Islander"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": true
+                    },
+                    "properties": {
+                        "disabled": true,
+                        "piping_exclude": "false",
+                        "show_rules": null,
+                        "show_rules_logic_map": null
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10005": {
+                    "id": 10005,
+                    "previous_version_id": null,
+                    "value": "Never heard of it",
+                    "title": {
+                        "English": "Never heard of it"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": false
+                    },
+                    "properties": {
+                        "disabled": false
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10006": {
+                    "id": 10006,
+                    "previous_version_id": null,
+                    "value": "No",
+                    "title": {
+                        "English": "No"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": false
+                    },
+                    "properties": {
+                        "disabled": false
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10007": {
+                    "id": 10007,
+                    "previous_version_id": null,
+                    "value": "No \u2013 but would if a data depot was available",
+                    "title": {
+                        "English": "No \u2013 but would if a data depot was available"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": false
+                    },
+                    "properties": {
+                        "disabled": false
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10008": {
+                    "id": 10008,
+                    "previous_version_id": null,
+                    "value": "American Indian\/Alaska Native",
+                    "title": {
+                        "English": "American Indian\/Alaska Native"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": true
+                    },
+                    "properties": {
+                        "disabled": true,
+                        "piping_exclude": "false",
+                        "show_rules": null,
+                        "show_rules_logic_map": null
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10009": {
+                    "id": 10009,
+                    "previous_version_id": null,
+                    "value": "Other, please specify",
+                    "title": {
+                        "English": "Other, please specify"
+                    },
+                    "group": {
+                        "English": ""
+                    },
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": true
+                    },
+                    "properties": {
+                        "disabled": true,
+                        "piping_exclude": "false",
+                        "show_rules": null,
+                        "show_rules_logic_map": null,
+                        "other": true
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10010": {
+                    "id": 10010,
+                    "previous_version_id": null,
+                    "value": "Prefer not to answer",
+                    "title": {
+                        "English": "Prefer not to answer"
+                    },
+                    "group": {
+                        "English": ""
+                    },
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": true
+                    },
+                    "properties": {
+                        "disabled": true,
+                        "piping_exclude": "false",
+                        "show_rules": null,
+                        "show_rules_logic_map": null
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                },
+                "10015": {
+                    "id": 10015,
+                    "previous_version_id": null,
+                    "value": "Yes",
+                    "title": {
+                        "English": "Yes"
+                    },
+                    "group": null,
+                    "source": 0,
+                    "source_id": null,
+                    "source_option_id": null,
+                    "Runtime": {
+                        "Disabled": false
+                    },
+                    "properties": {
+                        "disabled": false
+                    },
+                    "image": null,
+                    "history": null,
+                    "parent_survey": null,
+                    "parent_question": null,
+                    "parent_section": null,
+                    "need_value": true
+                }
+            },
+            "page": "p1"
+        },
+        "13": {
+            "id": 13,
+            "title": "We\u2019d love to hear more! Could you briefly tell us how you use text-mining for your research? <span style=\"color:#444444;\"><em>[Optional]<\/em><\/span>",
+            "type": "TEXTBOX",
+            "Runtime": {
+                "Hidden": true,
+                "Required": false,
+                "Rendered": false,
+                "HasErrors": false,
+                "Errors": [],
+                "Answered": false,
+                "Number": "",
+                "PipePrototype": false,
+                "Piped": false,
+                "PipedValue": null,
+                "Data": {
+                    "atoms": []
+                }
+            },
+            "properties": {
+                "required": false,
+                "hidden": false,
+                "size": "",
+                "cssclass": "sg-textbox",
+                "map_key": "text",
+                "alldepends": [],
+                "option_sort": "NONE",
+                "validation_control": "",
+                "labels_right": false,
+                "inline-edit": true,
+                "newpipeorder": true,
+                "show_title": false,
+                "question_description": {
+                    "English": ""
+                },
+                "question_description_above": false,
+                "required-when": false,
+                "soft-required": false,
+                "disabled": false,
+                "pro-services-lock": false,
+                "include_page_titles": "false",
+                "include_page_numbers": "false",
+                "include_question_numbers": "false",
+                "alert_emails": [],
+                "noclean": "",
+                "save_logic_data": "false",
+                "show_rules": {
+                    "atom": {
+                        "type": "3",
+                        "value": "2"
+                    },
+                    "operator": "12",
+                    "atom2": {
+                        "type": "17",
+                        "value": [
+                            "2-10015"
+                        ]
+                    },
+                    "id": "5d2c635e07df1",
+                    "same_page_skus": []
+                },
+                "show_rules_logic_map": ":5d2c635e07d47,5d2c635e07df1",
+                "messages": {
+                    "inputmask": [],
+                    "r_extreme_label": [],
+                    "l_extreme_label": [],
+                    "center_label": [],
+                    "right_label": [],
+                    "left_label": [],
+                    "na_text": [],
+                    "th_content": [],
+                    "conjoint_best_label": [],
+                    "conjoint_worst_label": [],
+                    "conjoint_none_label": [],
+                    "conjoint_card_label": [],
+                    "conjoint_error_label": [],
+                    "maxdiff_best_label": [],
+                    "maxdiff_worst_label": [],
+                    "maxdiff_attribute_label": [],
+                    "maxdiff_of": [],
+                    "maxdiff_sets_message": []
+                },
+                "orientation": "VERT",
+                "date_format": "eu",
+                "min_date": "",
+                "max_date": "",
+                "col_sort": "NONE",
+                "dhtml_hidden": false,
+                "hide_all_after_until_value": false,
+                "hide_after_response": false,
+                "comments": false,
+                "require_comments": false,
+                "admin_question": false,
+                "require_admin_question": false,
+                "sentiment_analysis": false,
+                "custom_css": "",
+                "break_after": false,
+                "has_showhide_deps": false,
+                "url": "http:\/\/",
+                "lastmodified": 1563198651,
+                "html_format_type": "",
+                "max_characters": "500",
+                "complicated_logic_rule": "if(self.SG_evaluate(2).indexOf('10015')!==-1){self.showQuestion(13)}else{self.hideQuestion(13);self.clearQuestionData('[name |= sgE-5114489-1-13]')}",
+                "complicated_logic_rule_triggers": [
+                    "2"
+                ]
+            },
+            "page": "p1"
+        },
+        "14": {
+            "id": 14,
+            "title": "If you'd be happy with a <em>Nature<\/em> reporter getting in touch to talk about your work, please share your email address:",
+            "type": "TEXTBOX",
+            "Runtime": {
+                "Hidden": true,
+                "Required": false,
+                "Rendered": false,
+                "HasErrors": false,
+                "Errors": [],
+                "Answered": false,
+                "Number": "",
+                "PipePrototype": false,
+                "Piped": false,
+                "PipedValue": null,
+                "Data": {
+                    "atoms": []
+                }
+            },
+            "properties": {
+                "required": false,
+                "hidden": false,
+                "size": "",
+                "cssclass": "sg-textbox",
+                "map_key": "email",
+                "alldepends": [],
+                "option_sort": "NONE",
+                "validation_control": "",
+                "labels_right": false,
+                "inline-edit": true,
+                "newpipeorder": true,
+                "show_title": false,
+                "question_description": {
+                    "English": ""
+                },
+                "question_description_above": false,
+                "required-when": false,
+                "soft-required": false,
+                "disabled": false,
+                "pro-services-lock": false,
+                "include_page_titles": "false",
+                "include_page_numbers": "false",
+                "include_question_numbers": "false",
+                "alert_emails": [],
+                "noclean": "",
+                "save_logic_data": "false",
+                "messages": {
+                    "inputmask": [],
+                    "r_extreme_label": [],
+                    "l_extreme_label": [],
+                    "center_label": [],
+                    "right_label": [],
+                    "left_label": [],
+                    "na_text": [],
+                    "th_content": [],
+                    "conjoint_best_label": [],
+                    "conjoint_worst_label": [],
+                    "conjoint_none_label": [],
+                    "conjoint_card_label": [],
+                    "conjoint_error_label": [],
+                    "maxdiff_best_label": [],
+                    "maxdiff_worst_label": [],
+                    "maxdiff_attribute_label": [],
+                    "maxdiff_of": [],
+                    "maxdiff_sets_message": []
+                },
+                "orientation": "VERT",
+                "date_format": "eu",
+                "min_date": "",
+                "max_date": "",
+                "col_sort": "NONE",
+                "dhtml_hidden": false,
+                "hide_all_after_until_value": false,
+                "hide_after_response": false,
+                "comments": false,
+                "require_comments": false,
+                "admin_question": false,
+                "require_admin_question": false,
+                "sentiment_analysis": false,
+                "custom_css": "",
+                "break_after": false,
+                "has_showhide_deps": false,
+                "url": "http:\/\/",
+                "lastmodified": 1563190735,
+                "show_rules": {
+                    "atom": {
+                        "type": "3",
+                        "value": "2"
+                    },
+                    "operator": "12",
+                    "atom2": {
+                        "type": "17",
+                        "value": [
+                            "2-10015"
+                        ]
+                    },
+                    "id": "5d2c640572bab",
+                    "same_page_skus": []
+                },
+                "show_rules_logic_map": ":5d2c640572b01,5d2c640572bab",
+                "html_format_type": "",
+                "subtype": "EMAIL",
+                "complicated_logic_rule": "if(self.SG_evaluate(2).indexOf('10015')!==-1){self.showQuestion(14)}else{self.hideQuestion(14);self.clearQuestionData('[name |= sgE-5114489-1-14]')}",
+                "complicated_logic_rule_triggers": [
+                    "2"
+                ]
+            },
+            "page": "p1"
+        }
+    }
+};this.S5114489 = new SGSurvey(SGAPI.surveyData["5114489"], false);this.S5114489.InitPage(1);$(document).ready(function() {SG_init_page(el);});}});if (SGAPI.embedManager && SGAPI.embedManager.loaded) {SGAPI.embedManager.loadPendingContent();}if (!SGAPI.scriptsLoading) {(function() {SGAPI.scriptsLoading = true;var s = document.createElement("SCRIPT");s.charset = "utf-8";s.src = "//www.surveygizmo.com/2019.07.18.00/runtimejs/dist/survey/js/jssurvey.js";var h = document.getElementsByTagName("head").item(0);h.appendChild(s);})();}
